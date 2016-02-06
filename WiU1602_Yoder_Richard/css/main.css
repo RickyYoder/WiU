@@ -1,11 +1,13 @@
 
 /*-------------------------------------------  general -------------------------------------------------------*/
-body{
-	font-size: 62.5%;
-	font-family: helvetica, arial, sans-serif;
-	color:#545257; /*changes color of the whole text*/
+html,body{
+	font-size:10pt;
+	font-family:Arial, sans-serif;
+	color:#444; /*changes color of the whole text*/
 	margin-top: 0;
+	background:#eff;
 }
+
 #wrapper{
 	width:960px;
 	margin: 0 auto;
@@ -28,6 +30,11 @@ h1{
 h2{
 	margin-top: 20px;
 }
+
+h1,h2,h3,h4,h5,h6{
+	color:#440CE8;
+}
+
 /*-------------------------------------------  table -------------------------------------------------------*/
 table{
 	background: #f7f7f9;  /*changes color of the background of the table*/
@@ -47,7 +54,7 @@ th{
 	font-weight: bold;
 	font-size: 120%;
 	color: #545257;  /*changes color of table hd text*/
-	background: #bbbcc0; /*changes color of table hd background*/
+	background: #FFB40D; /*changes color of table hd background*/
 }
 th:first-child{
 	/*border-right: 1px solid #6a7680;*/
@@ -89,8 +96,7 @@ figure img{
 /*-------------------------------------------  links -------------------------------------------------------*/
 a{
 	text-decoration: none;
-	font-size: 1.3em;
-	color: #475a80;  /*changes color of the links*/
+	color: #82E80C;  /*changes color of the links*/
 }
 a:hover{
 	text-decoration: underline;
